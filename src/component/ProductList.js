@@ -6,7 +6,7 @@ class ProductList extends Component {
     return this.props.productList.map((car, index) => {
       return (
         <div className="col-4" key={index}>
-          <ProductItem item={car} />
+          <ProductItem viewDetail={this.props.viewDetail} item={car} />
         </div>
       );
     });

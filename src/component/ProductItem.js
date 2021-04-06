@@ -11,10 +11,13 @@ class ProductItem extends Component {
           src={item.img}
           alt={item.name}
         />
-        <div className="card-body">
+        <div className="card-body text-center">
           <h4 className="card-title">{item.name}</h4>
-          <p className="card-text">{item.price}</p>
+          <p className="card-text">${item.price}</p>
           <button
+            onClick={() => {
+              this.props.viewDetail(item);
+            }}
             data-toggle="modal"
             data-target="#modelId"
             className="btn btn-success text-white"

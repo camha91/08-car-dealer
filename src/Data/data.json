@@ -1,31 +1,31 @@
 [
   {
     "id": 1,
-    "name": "black tesla",
+    "name": "Black tesla",
     "img": "./img/black-tesla.jpg",
     "price": 72990
   },
   {
     "id": 2,
-    "name": "blue tesla",
+    "name": "Blue tesla",
     "img": "./img/blue-tesla.jpg",
     "price": 112990
   },
   {
     "id": 3,
-    "name": "red tesla",
+    "name": "Red tesla",
     "img": "./img/red-tesla.jpg",
     "price": 142990
   },
   {
     "id": 4,
-    "name": "steel tesla",
+    "name": "Steel tesla",
     "img": "./img/steel-tesla.jpg",
     "price": 72990
   },
   {
     "id": 5,
-    "name": "white tesla",
+    "name": "White tesla",
     "img": "./img/white-tesla.jpg",
     "price": 112990
   }
